@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="272.0" prefWidth="277.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab1sigov.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <ChoiceBox prefWidth="150.0" />
+   <VBox alignment="TOP_CENTER" prefHeight="213.0" prefWidth="261.0" style="-fx-padding: 30;">
+       <padding>
+           <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+       </padding>
+      <children>
+          <Label fx:id="textLabel" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="156.0" textAlignment="CENTER" />
+         <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+         <TextField id="textField_ch" fx:id="textField_ch" alignment="TOP_CENTER" />
+         <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+          <Button alignment="TOP_CENTER" onAction="#onHelloButtonClick" text="Конвертитровать" textAlignment="CENTER" />
+      </children>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+   </VBox>
+</VBox>
